@@ -20,7 +20,6 @@ public class Namekuseijin extends PersonagemDragonBall {
 
     public String fazerDesejo(String desejo) {
         if (quantidadeEsferas >= 7) {
-            // Transform the wish into Namekusei language (mocked transformation)
             return "Desejo transformado em Namekusei: " + desejo.replace("a", "aa").replace("e", "ee").replace("i", "ii").replace("o", "oo").replace("u", "uu");
         } else {
             return "Não há esferas do dragão suficientes para fazer um desejo.";
