@@ -20,7 +20,7 @@ public class Main {
 
             System.out.print("Escolha uma opção: ");
             int opcao = scanner.nextInt();
-            scanner.nextLine();  // Consumir a nova linha
+            scanner.nextLine();
 
             switch (opcao) {
                 case 1:
@@ -59,7 +59,7 @@ public class Main {
                 case 4:
                     System.out.print("Digite a quantidade de esferas do dragão que Dendê possui: ");
                     int quantidadeEsferas = scanner.nextInt();
-                    scanner.nextLine();  // Consumir a nova linha
+                    scanner.nextLine(); 
                     dende.setQuantidadeEsferas(quantidadeEsferas);
 
                     System.out.print("Digite o pedido para Dendê: ");
